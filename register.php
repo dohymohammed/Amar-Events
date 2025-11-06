@@ -611,8 +611,8 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
 function sendPushNotification($playerId, $title, $message) {
-    $appId = "68c1cc9c-e5c0-44db-b49f-f24202ee6b6a";
-    $apiKey = "os_v2_app_nda4zhhfybcnxne76jbaf3tlnjrdmyv7vvfuyrv2gvpemfkc6zhs7jmxs5kjs5zafdszaxs2rjlkqpbtrnwb3o2oo6nam33z5qdpc2a";
+    $appId = "";
+    $apiKey = "";
 
     $payload = [
         "app_id" => $appId,
