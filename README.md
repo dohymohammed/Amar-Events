@@ -1,102 +1,119 @@
 # AmarEvents
 
-**AmarEvents** is a modern event management and booking platform designed to make organizing, promoting, and managing events effortless. Whether itâ€™s a wedding, concert, corporate event, or private celebration â€” AmarEvents helps you handle everything from start to finish.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PHP Version](https://img.shields.io/badge/PHP-8.2-blue)](#)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)](#)
+[![AlwaysData](https://img.shields.io/badge/Hosted%20on-AlwaysData-lightgrey)](https://www.alwaysdata.com)
+[![Website](https://img.shields.io/badge/Live-Website-blueviolet)](https://amarevents.zone.id)
 
-ðŸŒ **Live Website:** [https://amarevents.zone.id](https://amarevents.zone.id)
+**AmarEvents** is a modern event management and booking platform that helps you create, manage, and promote events effortlessly. Perfect for weddings, concerts, corporate events, or private celebrations.
+
+ðŸ–¥ **Live Website:** [https://amarevents.zone.id](https://amarevents.zone.id)
 
 ---
 
 ## ðŸš€ Features
 
-- ðŸŽŸï¸ Easy event creation & ticket booking  
-- ðŸ—“ï¸ Smart scheduling and live updates  
+- ðŸŽŸ Easy event creation & ticket booking  
+- ðŸ—“ Smart scheduling and live updates  
 - ðŸ’³ Secure payments and confirmation flow  
 - ðŸ“Š Organizer dashboard with analytics  
-- ðŸ“¸ Event gallery & highlights  
-- ðŸ“± Fully responsive mobileâ€‘friendly UI  
-- â˜ï¸ Hosted on **AlwaysData** â€” reliable, free, and easy to deploy
+- ðŸ–¼ Event gallery & highlights  
+- ðŸ“± Fully responsive mobile-friendly UI  
+- â˜ï¸ Hosted on **AlwaysData** â€” reliable, free, and easy to deploy  
 
 ---
 
-## ðŸ§° Tech Stack
+## ðŸ–¼ Screenshots
+
+**Homepage**  
+![Homepage](https://via.placeholder.com/800x400?text=Homepage+Screenshot)  
+
+**Organizer Dashboard**  
+![Dashboard](https://via.placeholder.com/800x400?text=Dashboard+Screenshot)  
+
+**Ticket Booking**  
+![Ticket](https://via.placeholder.com/800x400?text=Ticket+Booking+Screenshot)  
+
+---
+
+## ðŸ§± Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript (Bootstrap)  
 - **Backend:** PHP  
 - **Database:** MySQL  
-- **Hosting:** AlwaysData (Free plan)
+- **Hosting:** AlwaysData (Free plan)  
 
 ---
 
-## ðŸ§© Setup & Installation
+## ðŸ“ Project Structure
 
-1. **Clone the repository**
+```
+/www/             â†’ Web-root directory  
+/config/          â†’ Configuration files (database, mail, etc.)  
+/public/          â†’ Front-end assets (CSS, JS, images)  
+/src/             â†’ Backend PHP source code  
+/database/        â†’ SQL schema and initial data  
+```
+
+---
+
+## ðŸ›  Setup & Installation
+
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/harunabdullahrakin/Amar-Events.git
    cd Amar-Events
-   ```
-
-2. **Copy and configure environment file**
+   ```  
+2. **Copy and configure environment file**  
    ```bash
    cp config/config.sample.php config/config.php
-   ```
-   Then edit `config.php` with your database and mail credentials.
-
-3. **Import database**
+   ```  
+   Then edit `config.php` with your database credentials, mail settings, etc.  
+3. **Import the database schema**  
    ```bash
    mysql -u username -p database_name < database/schema.sql
-   ```
-
-4. **Run locally (optional)**
-   If youâ€™re using PHP locally:
+   ```  
+4. **Run locally (optional)**  
    ```bash
    php -S localhost:8000
-   ```
-   Then visit [http://localhost:8000](http://localhost:8000)
-
-5. **Deploy on AlwaysData**
-   - Upload your project files to the `/www/` directory in your AlwaysData account.  
-   - Connect your custom domain (e.g., `amarevents.zone.id`) in the dashboard.  
-   - Enjoy fast, free, and reliable hosting for your PHP website.
-
----
-
-## ðŸ§¾ Project Structure
-
-```
-/www/             â†’ Web root directory  
-/config/          â†’ Configuration files (database, mail, etc.)  
-/public/          â†’ Assets (CSS, JS, images)  
-/src/             â†’ Backend PHP source code  
-```
+   ```  
+   Visit [http://localhost:8000](http://localhost:8000)  
+5. **Deploy on AlwaysData**  
+   - Upload files to `/www/`  
+   - Connect your custom domain  
+   - Enjoy free, reliable hosting  
 
 ---
 
 ## ðŸ” Security Tips
 
 - Never commit credentials or passwords.  
-- Add these to `.gitignore`:
+- Add to `.gitignore`:  
   ```
   /config/config.php
   /.env
   /vendor/
   /node_modules/
-  ```
-- Enable **Secret Scanning** and **Push Protection** in GitHub under *Settings â†’ Code security and analysis*.
+  ```  
+- Enable **Secret Scanning** and **Push Protection** in GitHub.
 
 ---
 
-## ðŸ“œ License
+## ðŸ“„ License
 
-This project is licensed under the **MIT License** â€” see the `LICENSE` file for details.
+MIT License â€” see the `LICENSE` file.  
 
 ---
 
-## ðŸ’¬ Contact
+## ðŸ‘¤ Contact
 
-Maintained by **Harun Abdullah Rakin**  
+**Harun Abdullah Rakin**  
 GitHub â†’ [@harunabdullahrakin](https://github.com/harunabdullahrakin)  
-Website â†’ [https://amarevents.zone.id](https://amarevents.zone.id)
+Website â†’ [https://amarevents.zone.id](https://amarevents.zone.id)  
 
 ---
 
-> To get the best experience use alwaysdata.com. 
+## ðŸ·ï¸ Tags
+
+`PHP` `MySQL` `Bootstrap` `Event Management` `Ticket Booking` `AlwaysData` `Free Hosting` `Responsive UI` `Analytics Dashboard`
