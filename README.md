@@ -8,23 +8,23 @@
 
 **AmarEvents** is a modern event management and booking platform that helps you create, manage, and promote events effortlessly. Perfect for weddings, concerts, corporate events, or private celebrations.
 
-ðŸ–¥ **Live Website:** [https://amarevents.zone.id](https://amarevents.zone.id)
+🌐 **Live Website:** [https://amarevents.zone.id](https://amarevents.zone.id)
 
 ---
 
-## ðŸš€ Features
+## 🔥 Features
 
-- ðŸŽŸ Easy event creation & ticket booking  
-- ðŸ—“ Smart scheduling and live updates  
-- ðŸ’³ Secure payments and confirmation flow  
-- ðŸ“Š Organizer dashboard with analytics  
-- ðŸ–¼ Event gallery & highlights  
-- ðŸ“± Fully responsive mobile-friendly UI  
-- â˜ï¸ Hosted on **AlwaysData** â€” reliable, free, and easy to deploy  
+-  Easy event creation & ticket booking  
+-  Smart scheduling and live updates  
+-  Secure payments and confirmation flow  
+-  Organizer dashboard with analytics  
+- Event gallery & highlights  
+- Fully responsive mobile-friendly UI  
+-  Hosted on **AlwaysData** â€” reliable, free, and easy to deploy  
 
 ---
 
-## ðŸ–¼ Screenshots
+## 🗺️ Screenshots
 
 **Homepage**  
 ![Homepage](https://via.placeholder.com/800x400?text=Homepage+Screenshot)  
@@ -37,7 +37,7 @@
 
 ---
 
-## ðŸ§± Tech Stack
+## 🚥 Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript (Bootstrap)  
 - **Backend:** PHP  
@@ -46,7 +46,7 @@
 
 ---
 
-## ðŸ“ Project Structure
+## 📙 Project Structure
 
 ```
 /www/             â†’ Web-root directory  
@@ -58,7 +58,7 @@
 
 ---
 
-## ðŸ›  Setup & Installation
+## 💡›  Setup & Installation
 
 1. **Clone the repository**  
    ```bash
@@ -86,7 +86,7 @@
 
 ---
 
-## ðŸ” Security Tips
+## 💻 Security Tips
 
 - Never commit credentials or passwords.  
 - Add to `.gitignore`:  
@@ -100,13 +100,13 @@
 
 ---
 
-## ðŸ“„ License
+## 📑 License
 
 MIT License â€” see the `LICENSE` file.  
 
 ---
 
-## ðŸ‘¤ Contact
+## ✉️ Contact
 
 **Harun Abdullah Rakin**  
 GitHub â†’ [@harunabdullahrakin](https://github.com/harunabdullahrakin)  
@@ -114,6 +114,6 @@ Website â†’ [https://amarevents.zone.id](https://amarevents.zone.id)
 
 ---
 
-## ðŸ·ï¸ Tags
+## 🗓️ Tags
 
 `PHP` `MySQL` `Bootstrap` `Event Management` `Ticket Booking` `AlwaysData` `Free Hosting` `Responsive UI` `Analytics Dashboard`
