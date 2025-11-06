@@ -1,0 +1,23 @@
+
+User-agent: *
+Allow: /
+
+# block folders
+Disallow: /config/
+Disallow: /vendor/
+Disallow: /admin/
+
+# sitemap
+Sitemap: https://amarevents.zone.id/sitemap.xml
+
+
+
+# blocks bots 
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

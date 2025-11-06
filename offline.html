@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Offline - AmarWorld</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body, html { height: 100%; margin: 0; }
+  .animate-bounce-up {
+    animation: bounce-up 2s infinite ease-in-out;
+  }
+  @keyframes bounce-up {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+</style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center text-center">
+
+  <div class="p-6 rounded-2xl bg-gray-800 shadow-2xl max-w-sm mx-auto">
+    <img src="assests/apple-touch-icon.png" alt="AmarWorld" class="w-24 h-24 mx-auto mb-4 animate-bounce-up">
+    <h1 class="text-2xl font-bold text-white mb-2">You are offline</h1>
+    <p class="text-gray-300 mb-4">AmarWorld needs an internet connection. Please check your network.</p>
+    <button onclick="location.reload()" class="bg-indigo-600 text-white px-5 py-2 rounded-lg hover:bg-indigo-500 transition">Retry</button>
+  </div>
+
+</body>
+</html>

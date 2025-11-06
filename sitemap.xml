@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>https://amarevents.zone.id/</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/wiki</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/events</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/dashboard</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/organizer</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/login</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/signup</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/reset-password</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/donation</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/event/thakurgaon-75k-friendship-run</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/organization</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/signup</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amarevents.zone.id/rules</loc>
+  <lastmod>2025-11-05T06:59:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
