@@ -49,12 +49,13 @@
 ## 📙 Project Structure
 
 ```
-/www/             â†’ Web-root directory  
-/config/          â†’ Configuration files (database, mail, etc.)  
-/public/          â†’ Front-end assets (CSS, JS, images)  
-/src/             â†’ Backend PHP source code  
-/database/        â†’ SQL schema and initial data  
-```
+/                 - Web-root directory  
+/config/          - Configuration files (database, mail, etc.)  
+/assests/         - Front-end assets (CSS, JS, images)  
+/dashboard/       - user, ticket checker
+/organizer/       - organizer stuffs
+/admin/           - admin dashboard and other stuff
+``` 
 
 ---
 
@@ -67,9 +68,9 @@
    ```  
 2. **Copy and configure environment file**  
    ```bash
-   cp config/config.sample.php config/config.php
+   cp config/
    ```  
-   Then edit `config.php` with your database credentials, mail settings, etc.  
+   Then edit `/config` with your database credentials, mail settings, etc.  
 3. **Import the database schema**  
    ```bash
    mysql -u username -p database_name < database/schema.sql
@@ -93,8 +94,8 @@
   ```
   /config/config.php
   /.env
-  /vendor/
-  /node_modules/
+  /config/
+  /admin/
   ```  
 - Enable **Secret Scanning** and **Push Protection** in GitHub.
 
